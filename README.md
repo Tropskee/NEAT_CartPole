@@ -12,7 +12,7 @@ Scroll to the bottom for post-training results!
 Make sure you have successfully installed [NEAT](https://neat-python.readthedocs.io/en/latest/installation.html) and [gym](http://gym.openai.com/docs/#installation) onto your machine.
 
 ## Running the Program
-For every script using the NEAT algorithm, there is an associated configuration file that houses all of the technical NEAT parameters. To solve the gym environment, there are two files: config_gym.txt and gym_cartpole_neat.py. Config_gym.txt contains the technical parameters for the neuroevolution process and gym_solver.py is the program the creates the neural networks and solves the game. You will not need to adjust parameters for the cartpole game, however you would need to change these if you wanted to solve any other gym game.
+For every script using the NEAT algorithm, there is an associated configuration file that houses all of the technical NEAT parameters. To solve the gym environment, there are two files: config_gym.txt and gym_cartpole_neat.py. Config_gym.txt contains the technical parameters for the neuroevolution process and gym_cartpole_neat.py is the program the creates the neural networks and solves the game. You will not need to adjust parameters for the cartpole game, however you would need to change these if you wanted to solve any other gym game.
 
 If you open the gym_cartpole_neat.py file with an IDE like VsCode, there will be a section at the top for user parameters.
 ```
