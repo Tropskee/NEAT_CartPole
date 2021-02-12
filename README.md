@@ -1,7 +1,12 @@
 # NEAT_CartPole
 
-Pre-training gameplay..
+CartPole is a great first game to attempt using Reinforcement Learning with, as it is a relatively easy game that doesn't take very long to train.
 
+Essentially there is a pole on a cart and your job (or rather the AI agent's job) is to move left or right and make sure the pole does not tip over.
+
+Here is what the game looks like when the agent is playing it for the first time.
+
+Pre-training gameplay...
 ![](Videos/Pre_Training.gif)
 
 Scroll to the bottom for post-training results!
@@ -30,6 +35,22 @@ REPLAY = False # Replay game with best genome
 I've tried my best to leave descriptive comments so every piece of code can be understood easily, so I won't delve into that here.
 
 ## Inputs and Outputs
+For CartPole, there will be 4 inputs and 2 outputs. I will let you figure out what those are (hint: look at gym's website). These are designated in the config_gym.txt file, so if you are playing a game other than CartPole, you will need to modify these parameters.
 
+I have the code configured so if you choose to play a game other than CartPole, the code will error initially but will display the required inputs/outputs in the terminal after running the script, like this:
+```
+Input Nodes: 4
+Output Nodes: 2
+```
+
+You will then have to go into the config_gym.txt file and change the following parameters to match:
+```
+num_inputs              = 4
+num_outputs             = 2
+```
+
+You will then be able to run the game successfuly after this. CartPole simulation should take less than 5 minutes with the original settings.
+
+Here is a video of how the agent plays the game after only 1 simulation!
 
 ![](Videos/Post_Training.gif)
