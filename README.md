@@ -1,10 +1,9 @@
 # NEAT_CartPole
 
-CartPole is a great first game to attempt using Reinforcement Learning with, as it is a relatively easy game that doesn't take very long to train. Essentially there is a pole on a cart and your job (or rather the AI agent's job) is to move left or right and make sure the pole does not tip over.
-
-Here is what the game looks like when the agent is playing it for the first time.
+CartPole is a great first game to attempt using Reinforcement Learning with, as it is a relatively easy game that doesn't take very long to train. Essentially there is a pole on a cart and your job (or rather the AI agent's job) is to move left or right and make sure the pole does not tip over. Here is what the game looks like when the agent is playing it for the first time.
 
 Pre-training gameplay...
+
 ![](Videos/Pre_Training.gif)
 
 Scroll to the bottom for post-training results!
